@@ -6,25 +6,25 @@ cask "si" do
     end
   end
 
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     on_arm do
-      sha256 "8b9cee1edcc4c45de1be86ae637dc32a7af83e1b6e11e3d175ee1d4cf97b03be"
+      sha256 "eac49fb5a7a0dc9f0ed429c2010c5db4cffcf79493e946811cea39dd4e4e8555"
       url "https://github.com/osman-butt/spring-init-tui/releases/download/v#{version}/spring-init-tui_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "98c16fa5881089baf12eacdc8243629ea3e298aea199d45bce9424e1a1945394"
+      sha256 "184165bec33ad60a6f81a2177254f84301beb132b6a5cf38a3cf504920b5c60d"
       url "https://github.com/osman-butt/spring-init-tui/releases/download/v#{version}/spring-init-tui_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "a6a22201fa6de113ed57659bfac8caed52c7f07308207460be2d059f9bb8e875"
+      sha256 "2f44be2bba912ac63502217e42c3d6f3922b7863011b34db2fb5780d6a4fc908"
       url "https://github.com/osman-butt/spring-init-tui/releases/download/v#{version}/spring-init-tui_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a38d4afb427497e0727531d61417a0bbceb0a80c0dd1de0f10eb4f1d05fa56e5"
+      sha256 "772ab0489ab6048737858eeafdfb8e972b406f20368faf18e362c769df15603f"
       url "https://github.com/osman-butt/spring-init-tui/releases/download/v#{version}/spring-init-tui_#{version}_linux_amd64.tar.gz"
     end
   end
